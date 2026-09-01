@@ -16,8 +16,8 @@ export default defineConfig({
 		})
 	],
 	define: {
-		__VERSION__: JSON.stringify((process.env.CF_PAGES_COMMIT_SHA || 'dev').slice(0, 7)),
-		__BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH || 'local'),
+		__VERSION__: JSON.stringify((process.env.WORKERS_CI_COMMIT_SHA || 'dev').slice(0, 7)),
+		__BRANCH__: JSON.stringify(process.env.WORKERS_CI_BRANCH || 'local'),
 		__BUILT_AT__: JSON.stringify(new Date().toISOString())
 	}
 });
