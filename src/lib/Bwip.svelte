@@ -47,7 +47,6 @@
 
 <style>
     .undraggable {
-        user-drag: none;
         -webkit-user-drag: none;
         user-select: none;
         -moz-user-select: none;

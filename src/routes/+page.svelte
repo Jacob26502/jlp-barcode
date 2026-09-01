@@ -105,53 +105,53 @@
 
 <div class="w-full flex justify-center sm:px-4">
 	<div class="relative w-full lg:w-124 xl:w-5xl h-screen md:h-screen lg:h-128">
-		<div id="carousel-container" class="carousel rounded-box bg-blue-200 w-full h-full pb-12">
-			<div id="barcode0" class="carousel-item flex justify-center items-center w-full h-full">
+		<div id="carousel-container" class="carousel rounded-box bg-blue-200 w-full h-full pb-12 snap-x snap-mandatory">
+			<div id="barcode0" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="0" />
 				</div>
 			</div>
-			<div id="barcode1" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode1" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="1" />
 				</div>
 			</div>
-			<div id="barcode2" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode2" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="2" />
 				</div>
 			</div>
-			<div id="barcode3" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode3" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="3" />
 				</div>
 			</div>
-			<div id="barcode4" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode4" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="4" />
 				</div>
 			</div>
-			<div id="barcode5" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode5" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="5" />
 				</div>
 			</div>
-			<div id="barcode6" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode6" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="6" />
 				</div>
 			</div>
-			<div id="barcode7" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode7" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="7" />
 				</div>
 			</div>
-			<div id="barcode8" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode8" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="8" />
 				</div>
 			</div>
-			<div id="barcode9" class="carousel-item flex justify-center items-center w-full h-full">
+			<div id="barcode9" class="carousel-item flex justify-center items-center w-full h-full snap-always">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="9" />
 				</div>
