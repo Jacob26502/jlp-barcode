@@ -14,6 +14,9 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 	}
+	const __VERSION__: string;
+	const __BRANCH__: string;
+	const __BUILT_AT__: string;
 }
 
 export {};
