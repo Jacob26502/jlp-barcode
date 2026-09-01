@@ -1,42 +1,16 @@
-# sv
+# JLP-Barcode
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A quick project to help me with finding the funny parity number @ end of receipts. If there are any issues, HMU. 
 
-## Creating a project
+Tools Used:
+- Svelte/Kit for reactivity/SSR/Routing.
+- Bwip for good looking barcodes. words can't describe how bad JSBarcode is.
+- DaisyUI for not having to care about UI for an app used by 5people max.
+- date-fns for being better than ECMA262 @ half the performance. 
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```sh
-# create a new project
-npx sv create my-app
-```
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-bun x sv@0.16.4 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:none" sveltekit-adapter="adapter:cloudflare+cfTarget:workers" --install bun jlp barcode
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
 ## Building
 
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Just use bun, dev for testing & host using whatever you like.
