@@ -105,7 +105,7 @@
 				<fieldset class="fieldset">
 					<label class="label" for="branchNumber">Scroll Lock</label>
 					<div class="pl-1">
-						<input type="checkbox" checked={scrollLock} class="toggle toggle-accent toggle-lg" />
+						<input type="checkbox" bind:checked={scrollLock}  class="toggle toggle-accent toggle-lg" />
 
 					</div>
 
