@@ -115,10 +115,10 @@
 
 			<div class="absolute inset-x-0 bottom-0 flex-col text-center text-gray-600">
 				<p>
-					Ver: {__VERSION__} ({__BRANCH__})
+					Ver: <a class="underline hover:text-gray-400" target="_blank" href="https://github.com/Jacob26502/jlp-barcode">{__VERSION__}</a> ({__BRANCH__})
 				</p>
 				<p>
-					Build:  {format(new Date(__BUILT_AT__), "dd/mm/yy HH:mm")}
+					Built:  {format(new Date(__BUILT_AT__), "dd/mm/yy HH:mm")}
 				</p>
 			</div>
 
@@ -132,52 +132,62 @@
 <div class="w-full flex justify-center sm:px-4">
 	<div class="relative w-full lg:w-124 xl:w-5xl h-screen md:h-screen lg:h-128">
 		<div id="carousel-container" class="carousel rounded-box bg-blue-200 w-full h-full pb-12 snap-x snap-mandatory">
-			<div id="barcode0" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode0"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="0" />
 				</div>
 			</div>
-			<div id="barcode1" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode1"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="1" />
 				</div>
 			</div>
-			<div id="barcode2" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode2"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="2" />
 				</div>
 			</div>
-			<div id="barcode3" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode3"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="3" />
 				</div>
 			</div>
-			<div id="barcode4" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode4"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="4" />
 				</div>
 			</div>
-			<div id="barcode5" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode5"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="5" />
 				</div>
 			</div>
-			<div id="barcode6" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode6"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="6" />
 				</div>
 			</div>
-			<div id="barcode7" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode7"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="7" />
 				</div>
 			</div>
-			<div id="barcode8" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode8"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="8" />
 				</div>
 			</div>
-			<div id="barcode9" class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
+			<div id="barcode9"
+					 class="carousel-item flex justify-center items-center w-full h-full {scrollLock ? 'snap-always' : ''}">
 				<div class="h-4/5">
 					<Bwip branchNumber={branchNumber} tillNumber={tillNumber} transNo={transNo} parityNo="9" />
 				</div>
